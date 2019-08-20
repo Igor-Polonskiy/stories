@@ -1,0 +1,860 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Poppins ;
+}
+/*засериваем ссылку навигации на текущую страницу*/
+body#home a#homenav,
+body#about a#aboutnav,
+body#foods a#foodsnav,
+body#lifestyle a#lifestylenav,
+body#contact a#contactnav {
+	color: darkgrey;
+}
+.main_width {
+	margin: auto;
+	max-width: 1200px;
+	
+}
+.header_content{ 
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	/*margin-bottom: : 10px;*/
+}
+.menu_btn {
+	margin-right: 30px;
+	height: 80px;
+	align-items: center;
+	display: none;
+	width: 0;
+}
+.logo {
+    margin-left: 10px;
+	font-size: 24px;
+	font-weight: 700;
+}
+.nav {
+	width: 450px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.nav_2 {
+	display: none;
+}
+a {
+	text-decoration: none;
+	color: unset;
+}
+.nav_link{
+	color: black;
+}
+hr {
+	height: 4px;
+	color: black;
+	background-color: black;
+	border: none;
+	text-align: center;
+}
+.gold {
+	color: gold;
+}
+.features_posts {
+	 width: 100%;
+	display: flex;
+	height: 700px;
+}
+.features_posts_img {
+	width: 800px;
+	background-position: 50% 50%;
+    background-size: cover;
+	background-image: url(../images/bg_2.jpg); 
+}
+.features_posts_img_2 {
+	background-image: url(../images/bg_1.jpg);
+}
+.owl-carousel {
+	position: relative;
+}
+.hide {
+	display: none;
+}
+.features_posts_description {
+	width: 400px;
+	background-color: gold;
+}
+.features_posts_description_content {
+	padding:40px;
+	height:600px;
+	box-sizing: border-box; /* Ширина блока с полями */
+}
+.p_features_posts {
+	font-size: 18px;
+}
+.p_grey {
+	color: grey;
+	line-height: 1.5em;
+}
+.features_posts_description_btns {
+	z-index: 99;
+	position: relative;
+	left: 800px;
+	bottom: 100px;
+	display: flex;
+	width: 400px;
+	height: 100px;
+	background-color: white;
+}
+.description_read_more {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 180px;
+	background-color: black;
+	color: white;
+	border-radius: 3px;
+}
+.description_read_more:hover {
+	transition: .2s;
+	background-color: orange;
+} 
+
+.btn {
+	font-size: 20px;
+	color: gray;
+	font-family: Verdana;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	width: 50%;
+	height: 100%;
+	border-bottom :1px solid lightgray;
+	border-right: 1px solid lightgray;
+}
+.btn:hover {
+	transition: .2s;
+	background-color: black;
+	color: white;
+}
+.features_posts_h1 {
+	font-size: 45px;
+}
+
+
+.recent_stories {
+	margin-top: 110px;
+}
+.recent_stories_container {
+	display: flex;
+	justify-content: space-around;
+}
+.recent_stories_content {
+	width: 48%
+}
+.recent_stories_articles {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.recent_stories_article {
+	width: 48%;
+	/*min-width: 150px;*/
+	height: 50%;
+}
+.recent_stories_article_img {
+	height: 180px;
+	border-radius: 5px;
+	background-position: 50% 50%;
+    background-size:  130% ;
+    transition:  0.5s;
+    background-repeat: no-repeat;
+}
+.recent_stories_article_img:hover {
+	transition: 0.5s;
+	background-size: 150%;
+}
+.recent_stories_article_img_1{
+	background-image: url(../images/image_1.jpg);
+}
+.recent_stories_article_img_2{
+	background-image: url(../images/image_3.jpg);
+} 
+.recent_stories_article_img_3 {
+	background-image: url(../images/image_4.jpg);
+}
+.recent_stories_article_img_4 {
+	background-image: url(../images/image_5.jpg);
+}
+.orange {
+	color: orange;
+}
+.dessert {
+	display: flex;
+	width: 100%;
+	height: auto;
+	justify-content: space-between;
+}
+.hr {
+	align-self: center;
+	height: 0px;
+	width:50px ;
+	margin: auto;
+	border: 1px solid black;
+}
+.layer {
+	justify-content: flex-end;
+	display: flex;
+	flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.recent_stories_food{
+	position: relative;
+	height: 700px;
+	background-position: 50% 50%;
+    background-size: cover;
+	background-image: url(../images/image_2.jpg);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px; 
+    
+}
+.recent_stories_food_txt {
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+.recent_stories_food_txt_p1 {
+	font-size: 20px;
+}
+.recent_stories_food_txt_p2 {
+	font-size: 40px;
+	color: white;
+	margin-top: 0;
+}
+.recent_stories_read_more {
+	align-self: flex-end;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 60px;
+	background-color: white;
+}
+.recent_stories_read_more:hover {
+	transition: 0.2s;
+	background-color: black;
+	color: white;
+}
+.features_posts_2 {
+	margin-top: 40px;
+	height: 700px;
+	display: flex;
+	justify-content: space-around;
+}
+.features_posts_2_left {
+	width: 70%;
+}
+.features_posts_2_articles {
+	display: flex; 
+	justify-content: space-between;
+}
+.features_posts_2_article {
+	width: 31%;
+	height: 500px;
+}
+.features_posts_2_article_img {
+	width: 100%;
+	height: 320px;
+	border-radius: 5px;
+	background-position: 50% 50%;
+    background-size: 100%;
+    transition:  0.5s;
+}
+.features_posts_2_article_img:hover {
+	transition: 0.5s;
+	background-size: 120%;
+}
+.features_posts_2_article_img_1 {
+	background-image:  url(../images/blog-1.jpg);
+}
+.features_posts_2_article_img_2 {
+	background-image:  url(../images/blog-2.jpg);
+}
+.features_posts_2_article_img_3 {
+	background-image:  url(../images/blog-3.jpg);
+}
+.features_posts_2_article_btn {
+	display: flex;
+	justify-content: center;;
+	align-items: center;
+	height: 40px;
+	width: 130px;
+	color: white;
+	background-color: black;
+	border-radius: 3px;
+}
+.features_posts_2_article_btn:hover {
+	transition: .2s;
+	background-color: orange;
+} 
+.features_posts_2_right{
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.features_posts_2_right_img {
+	margin-bottom: 10px;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	background-position: 50% 50%;
+    background-size: cover;
+	background-image:  url(../images/author.jpg);
+}
+.serch {
+    margin-top: 80px;
+    width: 180px;
+    height:30px;
+    background-color: white;
+    border: 1px solid gray; /* Параметры рамки */
+    vertical-align: middle;
+   
+  }
+   input[type="search"] {
+    font-size: 15px;
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    width: 120px; /* Ширина поля */
+    vertical-align: middle; /* Выравнивание по середине */
+    height: 100%
+
+   }
+    
+   #serch__button {
+    border: none;
+    background-color: white;
+  color: black;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+   }
+
+
+   .roger_bosch {
+   	display: flex;
+   	align-items: flex-end;
+   }
+   .roger_bosch_descriptiion {
+   	padding: 40px;
+   	background-color: #1C1C1C;
+   	color: white;
+   	height: 700px;
+   	width: 500px;
+   	box-sizing: border-box; /* Ширина блока с полями */
+   }
+   .roger_bosch_descriptiion p{
+   	color: #585858;
+   	font-size: 18px;
+   	line-height: 1.5em;
+   }
+   .roger_bosch_descriptiion h1{
+   	font-size: 60px;
+   }
+   .roger_bosch_img {
+   	height: 600px;
+   	width: 100%;
+   	background-position: 50% 50%;
+    background-size: cover;
+	background-image:  url(../images/bg_3.jpg);
+   }
+   .roger_bosch_link {
+   	text-decoration: underline;
+   	text-decoration-color: #585858;
+   	font-style: italic;
+   }
+  .roger_bosch_link_txt {
+  	margin-top: 70px;
+  }
+
+
+  .holiday_seasons_recipes {
+  	margin-top: 100px;
+  	display: flex;
+  	justify-content: space-between;
+  }
+  .holiday_seasons_recipes_left {
+  	width: 70%;
+  	height: 700px;
+  }
+  .holiday_seasons_recipes_content {
+  	width:100%;
+  	height:600px;
+  	display: flex;
+  	justify-content: space-between;
+  }
+  .holiday_seasons_recipes_article {
+  	position: relative;
+	height: 500px;
+	width:48%;
+	background-position: 50% 50%;
+    background-size: cover;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px; 
+    background-image:  url(../images/image_1.jpg);
+  }
+  .holiday_seasons_recipes_article_txt { 
+  	position: absolute;
+  	width:100%;
+  	height:100% ;
+   	border-radius: 5px;
+  	justify-content: flex-end;
+	display: flex;
+	flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+  }
+  .holiday_seasons_recipes_article_txt_p1 {
+  	font-size: 18px;
+  	padding-left: 40px;
+  	padding-right: 40px;
+  	margin-bottom: 0;
+  } 
+  .holiday_seasons_recipes_article_txt_p2 {
+  	margin-top: 0;
+  	font-size: 35px;
+  	color: white;
+  	padding-left: 40px;
+  	padding-right: 40px;
+  }
+  .holiday_seasons_recipes_article_txt_1 {
+  	background-image:  url(../images/image_1.jpg);
+  }
+   .holiday_seasons_recipes_article_txt_2 {
+  	background-image:  url(../images/image_3.jpg);
+  }
+  .holiday_seasons_recipes_read_more {
+  	align-self: flex-end;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 60px;
+	background-color: white;
+  }
+  .holiday_seasons_recipes_read_more:hover {
+  	transition: 0.2s;
+	background-color: black;
+	color: white;
+  }
+  .holiday_seasons_recipes_right {
+  	width: 28%;
+  	height: 550px;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: space-between;
+  	align-items: center;
+  }
+  .holiday_seasons_recipes_right h2{
+  	padding-top: 10px;
+  }
+  .holiday_seasons_recipes_right_img {
+  	width: 90%;
+  	height: 150px;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	color: white;
+  	background-position: 50% 50%;
+    background-size: cover;
+    font-size: 24px;
+  }
+
+  .holiday_seasons_recipes_right_img_1 {
+  	background-image:  url(../images/category-1.jpg);
+  }
+  .holiday_seasons_recipes_right_img_2 {
+  	background-image:  url(../images/category-2.jpg);
+  }
+  .holiday_seasons_recipes_right_img_3 {
+  	background-image:  url(../images/category-2.jpg);
+  }
+
+
+  .about_stories {
+  	display: flex;
+  	height: 700px;
+  }
+  .about_stories_img {
+  	width: 50%;
+  	background-position: 50% 50%;
+    background-size: cover;
+    background-image:  url(../images/bg_5.jpg);
+  }
+  .about_stories_txt {
+  	width: 50%;
+  	margin-left: 50px;
+  	margin-top: 30px;
+  	box-sizing: border-box;
+  }
+  .about_stories_stat {
+  	display: flex;
+  	flex-wrap: wrap;
+  }
+  .about_stories_num {
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  	width: 50%;
+  	height: 250px;
+  }
+  .about_stories_number {
+  	font-size: 28px;
+  	font-weight: 700;
+  	margin-bottom: 0;
+  }
+.subscribe {
+	text-align: center;
+	margin-top: 100px;
+	max-width: 900px;
+	
+}
+.email_subscribe {
+	display: flex;
+	justify-content: center;
+	height: 50px;
+	
+	 
+	 
+}
+.email_subscribe_input {
+	padding-left: 20px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px; 
+	background-color: lightgray;
+	font-size: 20px;
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    width: 350px; /* Ширина поля */
+    vertical-align: middle; /* Выравнивание по середине */
+    height: 100%
+}
+#subscribe_btn {
+	font-size: 20px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px; 
+	border: none;
+	background-color:black ;
+	color:white ;
+	width: 100px;
+	height: 52px;
+	
+}
+footer {
+	margin-top: 100px;
+	height: auto;
+	background-color: #1C1C1C;
+}
+.footer_content {
+	padding-top: 100px;
+	display: flex;
+	color: white;
+	justify-content: space-between;
+}
+.footer_stories {
+	box-sizing: border-box;
+	padding-right: 80px;
+	width: 30%;
+}
+.footer_icons {
+	margin-top: 80px;
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+	font-size: 25px;
+}
+.footer_icons_circle {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #2E2E2E;
+}
+.footer_information {
+	width: 20%;
+}
+.footer_categories {
+	width: 25%;
+}
+.footer_have_a_questions {
+	width: 25%
+}
+.p_footer {
+	display: flex;
+	align-items: baseline;
+}
+.p_footer_txt {
+	margin-left: 20px;
+}
+.footer_copyrite {
+	margin-top: 100px;
+	text-align: center;
+	padding-bottom: 50px
+}
+
+ @media (max-width: 1200px){
+ 	header {
+ 		background-color: black;
+ 	}
+ 	.logo {
+ 		color: white;
+ 	}
+ 	.menu_btn {
+ 		width: 50%;
+ 		display: flex;
+ 		width: 60px;
+		visibility: visible;
+	}
+	.nav {/*скрытая навигация*/
+		display: none;
+	}
+	.logo {
+		width: 50%;
+	}
+	.header_content {
+		flex-wrap: wrap;
+	}
+	.nav_2 {
+		
+		height: 0;
+	}
+
+/*открываем скрытую навигацию по нажатию на кнопку меню*/
+	.menu_btn:focus ~ .nav_2, 
+	.menu_btn:active ~ .nav_2, 
+	.nav_2:hover 
+	{ 
+		
+	   display: flex;
+	   margin-left: 30px;
+		flex-direction: column;
+		justify-content: space-evenly;
+		background-color: black;
+		height: 250px; 
+		width: 100%;
+		
+	}
+	
+	 .nav_link {
+		color: white;
+ }
+ /*подсвечиваем ссылку навигации на текущую страницу*/
+	body#home a#homenav,
+	body#about a#aboutnav,
+	body#foods a#foodsnav,
+	body#lifestyle a#lifestylenav,
+	body#contact a#contactnav  {
+		color: red;
+	}
+	.features_posts_description_content {
+		margin-top: 60px;
+	}
+	.features_posts_h1 {
+		font-size: 35px;
+	}
+	.features_posts_description_btns {
+		display: none;
+	}
+	.features_posts_2 {
+		justify-content: center;
+		flex-wrap: wrap;
+		height: auto;
+	}
+	.features_posts_2_left{
+		width: 100%;
+	}
+	.features_posts_2_right {
+		width: 90%;
+		margin-bottom: 100px;
+	}
+	.serch {
+		width: 100%;
+	}
+	input[type="search"] {
+		width: 90%;
+	}
+	.roger_bosch_descriptiion {
+		width: 50%;
+	}
+	.roger_bosch_descriptiion h1{
+		font-size: 40px;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.roger_bosch_descriptiion p{
+		font-size: 22px;
+	}
+	.roger_bosch_img {
+		width: 50%;
+	}
+	.footer_content {
+		margin: 15px;
+		height: auto;
+	}
+	.footer_icons {
+		width: 100%;
+	}
+
+
+}
+ @media (max-width: 850px) {
+ 	.features_posts_description {
+ 		display: none;
+ 	}	
+ 	.features_posts_img {
+ 		width: 850px;
+ 	}
+ 	.hide {
+ 		margin-top: 100px;
+ 		display: block;
+ 		color: white;
+ 		text-align: center;
+
+ 	}
+ 	hr {
+ 		color: white;
+ 		background-color: white;
+ 		height: 6px;
+ 	}
+
+ 	.description_read_more {
+ 	 margin: auto;
+ 	}
+ 	.recent_stories_container {
+ 		flex-direction: column-reverse;
+
+ 	}
+ 	.recent_stories_content, .recent_stories_header{
+ 		width: 95%;
+ 		margin: auto;
+  	}
+  	.recent_stories_articles {
+
+  		flex-direction: column;
+  		justify-content: center;
+  		align-items: center;
+  		width: 95%;
+  		margin: auto;
+  	}
+  	.recent_stories_article {
+  		padding-top: 30px;
+  		width: 100%;
+  		margin: auto;
+  	}
+  	.features_posts_2_articles {
+  		flex-direction: column;
+  	}
+  	.features_posts_2_article {
+  		padding-bottom: 30px;
+  		width: 95%;
+  		height: auto;
+  		margin: auto;
+  		
+  	}
+  	.features_posts_2_article_img {
+  		height: 500px;
+  	}
+  	.serch {
+		width: 95%;
+		margin: auto;}
+	input[type="search"] {
+		width: 85%;	
+ 	}
+ 	.roger_bosch {
+ 		flex-direction: column-reverse;
+ 		justify-content: center;
+ 		align-items: center;
+ 	}
+ 	.roger_bosch_descriptiion {
+ 		width: 100%;
+ 		height: 650px;
+ 	}
+ 	.roger_bosch_img {
+ 		height: 100px;
+ 		width: 100%;
+ 	}
+ 	.holiday_seasons_recipes {
+ 		flex-direction: column;
+ 		width: 100%
+ 		justify-content:center;
+ 	}
+ 	.holiday_seasons_recipes_left {
+ 		width: 95%;
+ 		height: auto;
+ 		margin: auto;
+ 	}
+ 	.holiday_seasons_recipes_content {
+ 		width: 100%;
+ 		flex-direction: column;
+ 		height: auto;
+
+ 		
+ 	}
+ 	.holiday_seasons_recipes_article{
+ 		width: 100%;
+ 		height: 700px;
+ 		margin-bottom: 30px;
+ 	}
+
+ 	.holiday_seasons_recipes_right {
+ 		width: 95%;
+ 		margin: auto;
+ 		margin-bottom: 100px;
+ 	}
+ 	.holiday_seasons_recipes_right_img {
+ 		width: 100%
+ 	}
+ 	.about_stories{
+ 		flex-direction: column;
+ 		height: auto;
+ 	}
+ 	.about_stories_img {
+ 		width: 100%;
+ 		height: 500px;
+ 	}
+ 	 .about_stories_txt {
+ 	 	width: 100%;
+ 	 	margin-left: 0;
+ 	 }
+ 	 .about_stories_stat {
+ 	 	flex-direction: column;
+ 	 	align-items: center;
+ 	 }
+ 	 .footer_content {
+		flex-direction: column;
+	}
+	.footer_stories,
+	.footer_information,
+	.footer_categories,
+	.footer_have_a_questions {
+		width: 100%;
+	}
+	.footer_icons {
+		width: 200px;
+	}
+}
