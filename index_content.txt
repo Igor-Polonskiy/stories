@@ -7,18 +7,6 @@ Contact
 
 
 
-TEST
-
-
-
-TEST2
-
-
-TEST4
-
-
-
-
 
 
 Recent Stories
@@ -130,6 +118,3 @@ Have a Questions?
 +2 392 3929 210
 info@yourdomain.com
 Copyright ©2019 All rights reserved | This template is made with  by Colorlib
-
-
-test test
