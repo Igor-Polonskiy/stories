@@ -1,0 +1,56 @@
+.about {
+	position: relative;
+	height: 500px;
+	background-position: 50% 50%;
+    background-size: cover;
+    background-image: url(../images/bg_4.jpg);
+}
+.about_layer {
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.about_layer_txt {
+	margin-top: 250px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.about_layer_txt h1{
+	font-size: 60px;
+}
+.nav_3 {
+	width: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.home_white {
+		color: white;
+ }
+ .roger_bosch {
+ 	margin-top: -100px;
+ }
+ @media (max-width: 1200px)  {
+ 	.about_stories_img{
+ 		margin-left: 2%;
+ 	}
+}
+ }@media (max-width: 850px) {
+ 	.roger_bosch {
+ 	margin-top: 100px;
+	 }
+	 .about_stories_img{
+	 	width: 95%;
+	 	margin: auto;
+	 }
+}

@@ -1,0 +1,94 @@
+.about {
+	position: relative;
+	height: 500px;
+	background-position: 50% 50%;
+    background-size: cover;
+    background-image: url(../images/bg_4.jpg);
+}
+.about_layer {
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.about_layer_txt {
+	margin-top: 250px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.about_layer_txt h1{
+	font-size: 60px;
+}
+.nav_3 {
+	width: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.home_white {
+		color: white;
+ }
+ .features_posts_2_articles {
+ 	flex-wrap: wrap;
+ 	height: auto;
+ }
+ .features_posts_2 {
+	height: auto;
+}
+.features_posts_2_article_img_4 {
+	background-image: url(../images/blog-4.jpg);
+}
+.features_posts_2_article_img_5 {
+	background-image: url(../images/blog-5.jpg);
+}
+.features_posts_2_article_img_6 {
+	background-image: url(../images/blog-6.jpg);
+}
+.features_posts_2_article_img_7 {
+	background-image: url(../images/blog-7.jpg);
+}
+.features_posts_2_article_img_8 {
+	background-image: url(../images/blog-8.jpg);
+}
+.features_posts_2_article_img_9 {
+	background-image: url(../images/blog-9.jpg);
+}
+.features_posts_2_right {
+	margin-top: 50px;
+}
+.holiday_seasons_recipes_right {
+  	width: 100%;
+  	margin-top: 50px;
+}
+  
+  .holiday_seasons_recipes_right_img {
+  	width: 100%;
+}
+.pagination{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+.circle_pagination {
+	margin-right: 10px;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	border: 1px solid lightgrey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.active {
+	background-color: black;
+	color: white;
+}

@@ -1,0 +1,134 @@
+.about {
+	position: relative;
+	height: 500px;
+	background-position: 50% 50%;
+    background-size: cover;
+    background-image: url(../images/bg_4.jpg);
+}
+.about_layer {
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.about_layer_txt {
+	margin-top: 250px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.about_layer_txt h1{
+	font-size: 60px;
+}
+.nav_3 {
+	width: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.home_white {
+		color: white;
+ }
+ .map {
+ 	margin-top: 100px;
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ .feedback {
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: flex-start;
+ 	width: 50%;
+ }
+ .map_img {
+ 	width: 45%;
+ 	height: 600px;
+ }
+.contacts {
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-around;
+}
+.contact {
+	max-width: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.contact_icon {
+	font-size: 30px;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+.p_contact {
+	text-align: center;
+}
+ input,
+ textarea {
+ 	padding-left: 10px;
+ 	outline: none;
+ 	height: 40px;
+ 	margin-bottom: 30px;
+ 	width:80%;
+ 	border-radius: 5px;
+ 	border: 1px solid lightgray ;
+ }
+ textarea {
+ 	height: 200px;
+ }
+ .send_massage {
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	height: 50px;
+ 	margin-bottom: 30px;
+ 	width:180px;
+ 	border-radius: 5px;
+ 	border:none;
+ 	background-color: orange;
+ 	color: white;
+ }
+ 
+
+@media (max-width: 1200px) {
+	.map_img {
+		height: 300px;
+	}
+	.map {
+		margin-left: 30px;
+	}
+}
+@media (max-width: 850px) {
+	.map {
+		margin: auto;
+		margin-top: 100px;
+		flex-direction: column-reverse;
+		align-items: center;
+
+	}
+	.map_img {
+		width: 90%;
+	}
+	.feedback {
+		width: 90%;
+		align-items: center;
+	}
+	.contacts {
+			flex-direction: column;
+			align-items: center;
+}
