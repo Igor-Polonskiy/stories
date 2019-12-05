@@ -8,7 +8,12 @@ body#home a#homenav,
 body#about a#aboutnav,
 body#foods a#foodsnav,
 body#lifestyle a#lifestylenav,
-body#contact a#contactnav {
+body#contact a#contactnav,
+body#home a#homenav2,
+body#about a#aboutnav2,
+body#foods a#foodsnav2,
+body#lifestyle a#lifestylenav2,
+body#contact a#contactnav2 {
 	color: darkgrey;
 }
 .main_width {
@@ -607,6 +612,7 @@ footer {
 .p_footer {
 	display: flex;
 	align-items: baseline;
+	margin-bottom: 15px;
 }
 .p_footer_txt {
 	margin-left: 20px;
