@@ -13,7 +13,12 @@ body#home a#homenav2,
 body#about a#aboutnav2,
 body#foods a#foodsnav2,
 body#lifestyle a#lifestylenav2,
-body#contact a#contactnav2 {
+body#contact a#contactnav2,
+body#home a#homenav3,
+body#about a#aboutnav3,
+body#foods a#foodsnav3,
+body#lifestyle a#lifestylenav3,
+body#contact a#contactnav3 {
 	color: darkgrey;
 }
 .main_width {
@@ -806,7 +811,7 @@ footer {
  	}
  	.holiday_seasons_recipes {
  		flex-direction: column;
- 		width: 100%
+ 		width: 100%;
  		justify-content:center;
  	}
  	.holiday_seasons_recipes_left {
